@@ -21,7 +21,7 @@ RUN mkdir           /etc/service/mysql
 ADD build/mysql.sh  /etc/service/mysql/run
 RUN chmod +x        /etc/service/mysql/run
 
-RUN mkdir -p        /var/lib/mysql/
+
 RUN chmod -R 755    /var/lib/mysql/
 
 ADD build/setup.sh  /etc/mysql/mysql_setup.sh
