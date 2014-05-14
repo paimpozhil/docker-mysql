@@ -10,4 +10,4 @@ fi
 
 
 # Shutdown MySQL
-mysqladmin -uroot -proot shutdown
+mysqladmin -uroot  shutdown
